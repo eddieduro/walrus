@@ -1,8 +1,37 @@
-.overlay {
-  background-color: black;
-  display: block;
-  position: relative;
-  height: 400px;
-  width: 500px;
+.flashcard {
+  border:5px solid #000;
+  margin:0 auto;
+  margin-bottom:10px;
+  height:100px;
 
+}
+
+#1,#2,#3,#4,#5,#6,#7,#8 {
+  position: fixed;
+}
+
+.flashcard:hover {
+  -moz-transform: scaleX(-1);
+-o-transform: scaleX(-1);
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+filter: FlipH;
+-ms-filter: "FlipH";
+transition-duration:4s;
+}
+
+h4 {
+  -moz-transform: scaleX(-1);
+-o-transform: scaleX(-1);
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+filter: FlipH;
+-ms-filter: "FlipH";
+/*visibility:hidden;*/
+opacity: 0
+}
+
+.js-div {
+  width: 50%;
+  margin:0 auto;
 }
