@@ -4,6 +4,9 @@ $(function() {
   $(".js-div").mouseenter(function() {
     $(this).find("h3").fadeOut(1000);
   });
+
+  //Cool Hover Effects!!! *Jealous*
+  
   $(".js-div").mouseleave(function() {
     $(this).find("h3").fadeIn(3000);
   });
